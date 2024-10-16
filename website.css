@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #7FA1C3;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#home {
+    background: #E2DAD6;
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.business-group {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    margin: 20px;
+    text-align: justify;
+}
+
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+
+
+/* Media queries for phones  */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+
+    #home img {
+        height: 150px;
+    }
+
+    .ml2 {
+        font-size: 1.9em;
+    }
+}
+
+/* Media queries for laptops  */
+@media (min-width: 601px) and (max-width: 1200px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+    }
+
+    #home img {
+        height: 200px;
+    }
+
+    .ml2 {
+        font-size: 2.2em;
+    }
+}
+
+/* Media queries for TVs  */
+@media (min-width: 1201px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    nav ul li a {
+        font-size: 1.5rem;
+    }
+
+    #home img {
+        height: 300px;
+    }
+
+    .ml2 {
+        font-size: 2.5em;
+    }
+}
